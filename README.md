@@ -7,9 +7,11 @@
 
 This is a simple TODO list app developed in Kotlin that utilizes the Room Database library to manage tasks. It also includes a notification feature to remind users of tasks at specific dates and times.
 
-## Features
+**Key Features and Requirements:** 
 
-- Create, read tasks.
-- Store tasks locally using the Room Database for persistence.
-- Schedule notifications for tasks with specific due dates and times.
-- Receive notifications to remind you of upcoming tasks.
+Due Date: Each task should have a due date. 
+Priority Levels: Assign priority to tasks as Low, Medium, or High. 
+Category: Ability to categorize tasks. 
+Task Status: Mark tasks as New, In Progress, or Completed. 
+Title and Description: Each task should have a title and a detailed description. 
+Local Storage: The app should use local storage to save tasks. 
